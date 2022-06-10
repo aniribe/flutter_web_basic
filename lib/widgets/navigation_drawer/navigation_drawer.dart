@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_web_basic/config/routing/route_names.dart';
 import 'package:flutter_web_basic/constants/app_colors.dart';
 import 'package:flutter_web_basic/widgets/navigation_drawer/drawer_item.dart';
 import 'package:flutter_web_basic/widgets/navigation_drawer/navigation_drawer_header.dart';
@@ -23,8 +23,16 @@ class NavigationDrawer extends StatelessWidget {
       child: Column(
         children: const [
           NavigationDrawerHeader(),
-          DrawerItem(title: 'Episodes', icon: Icons.videocam),
-          DrawerItem(title: 'About', icon: Icons.help),
+          DrawerItem(
+            title: 'Episodes',
+            icon: Icons.videocam,
+            navigationPath: RouteNames.episodesRoute,
+          ),
+          DrawerItem(
+            title: 'About',
+            icon: Icons.help,
+            navigationPath: RouteNames.aboutRoute,
+          ),
         ],
       ),
     );

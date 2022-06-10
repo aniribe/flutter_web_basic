@@ -17,6 +17,7 @@ dependencies:
 
   responsive_builder: ^0.4.2
 
+  get_it:
 
 
 
