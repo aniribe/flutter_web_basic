@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_basic/constants/app_colors.dart';
 import '../../datamodels/episode_item_model.dart';
+import '../../extensions/hover_extensions.dart';
 
 class EpisodeItem extends StatelessWidget {
   final EpisodeItemModel model;
@@ -49,6 +50,6 @@ class EpisodeItem extends StatelessWidget {
           ],
         ),
       ),
-    );
+    ).showCursorOnHover.moveUpOnHover;
   }
 }
