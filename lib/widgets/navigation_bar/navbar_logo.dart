@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import '../../util/string_consts.dart';
+import '../../constants/string_consts.dart';
 
 class NavBarLogo extends StatelessWidget {
   const NavBarLogo({Key? key}) : super(key: key);

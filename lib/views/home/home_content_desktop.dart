@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import '../../util/string_consts.dart';
+import '../../constants/string_consts.dart';
 import '../../widgets/call_to_action/call_to_action.dart';
 import '../../widgets/course_details/course_details.dart';
 

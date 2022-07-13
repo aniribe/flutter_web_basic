@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_web_basic/util/string_consts.dart';
+import 'package:flutter_web_basic/constants/string_consts.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class CourseDetails extends StatelessWidget {

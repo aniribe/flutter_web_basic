@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_web_basic/util/string_consts.dart';
+import 'package:flutter_web_basic/constants/string_consts.dart';
 import 'package:flutter_web_basic/widgets/call_to_action/call_to_action.dart';
 import 'package:flutter_web_basic/widgets/course_details/course_details.dart';
 
